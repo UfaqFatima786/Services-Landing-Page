@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.body{
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRLc-2O5daebC61rhhnC6aEjpZ8ZRdWdsWg&s');
-      background-image: url('https://cdn.prod.website-files.com/64edaee359227c9b34a32e84/67ad19a313bff21b2e879cff_AD_4nXfZKUOS-ulGklFau_BL1Xtl8MS6gbBroLrBRnC-c-ID0qhyNmYoaoQfSjqbYwIZo41Shyep1pYQqGlzJrrCcdEldZdq7WDPsrrejPpVC3vLJy3kx8tLworqBKMXZ1FFZUv5sQGY.jpeg');
+body{
+    
+      background-image: url('https://cdn.pixabay.com/photo/2021/10/18/19/46/website-6721950_640.png');
+      width:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
 
 }
 .navUl{
