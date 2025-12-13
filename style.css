@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+background-color: linear-gradient(90deg,rgba(217, 87, 180, 1) 0%, rgba(9, 9, 121, 1) 51%, rgba(0, 212, 255, 1) 100%);
+}
+.navUl{
+    background-color:pink;
+    border-radius: 50px;
+    height: 100px;
+}
+.logo-1 {
+    width: 150px;
+    height: 120px;
+}
+
+.btn{
+    background-color:#d957b4;
+    border-radius: 10px;
+    border: 2px solid;
+    color: rgb(16, 16, 16);
+
+    /* background-color: #fff; */
+}
+.btn:hover{
+     border-radius: 10px;
+    border: 2px solid;
+    color: rgb(16, 16, 16);
+background-color:blue;
+}
+/* background-color: linear-gradient(90deg,rgba(217, 87, 180, 1) 0%, rgba(9, 9, 121, 1) 51%, rgba(0, 212, 255, 1) 100%); */
