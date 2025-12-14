@@ -83,3 +83,29 @@ cursor: pointer;
         color: #fffefe;
 
 }
+.middle-row{
+    background-color: rgb(143, 18, 226);
+    height: 430px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.heading-5{
+    color: #fdfcfc;
+}
+.heading-5:hover{
+    color: #000;
+    cursor: pointer;
+    transition: 0.3sec;
+}
+.btn-01{
+    background-color: #330936;
+    color: #f8f7f7;
+    font-size: 30px;
+}
+.btn-01:hover{
+    background-color: #d694f0;
+    color: #000;
+    font-size: 30px;
+    transition: 0.5s;
+cursor: pointer;
+}
