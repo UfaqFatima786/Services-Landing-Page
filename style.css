@@ -42,3 +42,44 @@ cursor: pointer;
     color: #faf7f7;
     font-size: 20px;
 }
+
+ .btn-1 {
+     background-color: #c47cac;
+     color: rgb(12, 8, 14);
+     border: 2px solid #060606;
+     border-radius: 5.95px;
+     height: 50px;
+     width: 150px;
+ }
+ .btn-1:hover{
+     border-radius: 10px;
+    border: 2px solid;
+    color: rgb(16, 16, 16);
+background-color:#e9a9e5;
+transition: 0.5s;
+cursor: pointer;
+}
+.header-row{
+    background-color: rgb(143, 18, 226);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.business-img{
+    border: 2px solid white;
+    height: 350px;
+}
+.business-img:hover{
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.heading-6{
+    color: #f7f5f5;
+}
+.heading-3{
+    color: #fffefe;
+}
+.para-1{
+        color: #fffefe;
+
+}
