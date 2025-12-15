@@ -139,3 +139,114 @@ body {
 .card-img-top{
     cursor: pointer;
 }
+.hire-button{
+    font-size: 50px;
+    font-style: bold;
+    background-color: #c47cac;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+.hire-button:hover{
+    font-size: 55px;
+    font-style: bold;
+    background-color: #430253;
+    color: #fcfafa;
+     cursor: pointer;
+    transition: 0.5s;
+        border: 2px solid rgb(252, 180, 220);
+
+
+}
+.list{
+text-decoration: none;
+text-align: left;
+font-size: 30px;
+font-weight: 20px;
+font-style: bold;
+color: #ffffff;
+}
+.list:hover{
+    color: #080808;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.hire-row{
+    background-color: rgb(143, 18, 226);
+}
+.hire-para{
+    font-size: 20px;
+
+}
+.contact-row{
+    background-color: rgb(143, 18, 226);
+
+}
+.contact-button{
+    font-size: 40px;
+    font-style: bold;
+    background-color: #c468a5;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+.contact-button:hover{
+    font-size: 45px;
+    font-style: bold;
+    background-color: #31013d;
+    color: #fcfafa;
+     cursor: pointer;
+    transition: 0.5s;
+        border: 2px solid rgb(252, 180, 220);
+}
+.contact-para{
+    font-size: 30px;
+    color: #fcfafa;
+    text-align: center;
+}
+.label{
+    color: #f7f6f6;
+    font-size: 29px;
+}
+.e-para{
+    color: #fdfafa;
+}
+.tag{
+    color: #fcfafa;
+    text-decoration: none;
+}
+.sbmt-btn{
+     font-size: 25px;
+    font-style: bold;
+    background-color: #c468a5;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.sbmt-btn:hover{
+     font-size: 25px;
+    font-style: bold;
+    background-color: #5a0270;
+    color: #faf9f9;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer{
+            background-color: rgb(143, 18, 226);
+
+}
+.footer-para{
+color: #ffffff;
+}
+.footer-para:hover{
+color: #0e0c11;
+cursor: pointer;
+    transition: 0.5s;
+
+}
