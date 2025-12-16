@@ -135,11 +135,22 @@ body {
 
 .second-middle-row {
     background-color: rgb(143, 18, 226);
+    border-radius: 10px;
+    border: 2px solid black;
 
 }
 
 .third-middle-row {
     background-color: rgb(143, 18, 226);
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.hire-row {
+    background-color: rgb(143, 18, 226);
+    border-radius: 10px;
+    border: 2px solid black;
 
 }
 
@@ -195,7 +206,11 @@ body {
 }
 
 .contact-row {
+
     background-color: rgb(143, 18, 226);
+    border-radius: 10px;
+    border: 2px solid black;
+
 
 }
 
@@ -226,6 +241,10 @@ body {
 }
 
 .label {
+    color: #f7f6f6;
+    font-size: 29px;
+}
+.label-msg {
     color: #f7f6f6;
     font-size: 29px;
 }
@@ -261,11 +280,17 @@ body {
 
 .footer {
     background-color: rgb(143, 18, 226);
+    height: 100px;
+
+    border-radius: 10px;
+    border: 2px solid black;
 
 }
 
+
 .footer-para {
     color: #ffffff;
+    font-size: 30px;
 }
 
 .footer-para:hover {
@@ -275,15 +300,90 @@ body {
 
 }
 
- @media only screen and (max-width: 991px) {
 
-     .navUl a {
-                    margin-top: -15px;
 
-         text-align: center;
+@media only screen and (max-width: 992px) {
+    .left-row {
+        text-align: center;
+    }
+  .navbar-collapse {
+    background: linear-gradient(
+      90deg,
+      rgba(217, 87, 180, 1) 0%,
+      rgba(9, 9, 121, 1) 51%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .navUi{
+    padding-bottom:100px;
+  }
+  .btn{
+ margin-left:225px;
+  }
 
-     }
-    .navUi{
-            background-image: linear-gradient(90deg, rgba(217, 87, 180, 1) 0%, rgba(242, 235, 238, 1) 0%, rgba(9, 9, 121, 1) 51%, rgba(225, 0, 245, 1) 100%);
-    } }
-    
+
+
+}
+@media only screen and (max-width: 991px) {
+
+    .navUl a {
+        margin-top: -15px;
+
+        text-align: center;
+
+    }
+
+    .form {
+        text-align: center;
+    }
+
+    .e-para {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .middle-row {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 507px) {
+    .middle-row {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .footer {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .middle-row {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+
+    .label-msg,
+    #message {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 311px) {
+    .middle-row {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 294px) {
+    .middle-row {
+        height: 1000px;
+    }
+}
