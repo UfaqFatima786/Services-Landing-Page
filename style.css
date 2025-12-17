@@ -108,6 +108,11 @@ body {
     animation-duration: 0.8s;
     cursor: pointer;
 }
+.hire-section:hover {
+    animation-name: animate__fadeInUp;
+    animation-duration: 0.8s;
+    cursor: pointer;
+}
 
 .heading-5 {
     color: #fdfcfc;
@@ -157,9 +162,18 @@ body {
 .card-img-top {
     cursor: pointer;
 }
+.card-img-top {
+    animation: none;
+}
+
+.card:hover .card-img-top {
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
 
 .hire-button {
-    font-size: 50px;
+    font-size: 40px;
     font-style: bold;
     background-color: #c47cac;
     color: #000;
@@ -169,7 +183,7 @@ body {
 }
 
 .hire-button:hover {
-    font-size: 55px;
+    font-size: 45px;
     font-style: bold;
     background-color: #430253;
     color: #fcfafa;
@@ -367,6 +381,11 @@ body {
         height: 700px;
     }
 }
+@media only screen and (max-width: 391px) {
+    .footer-para{
+font-size: 20px;    }
+}
+
 
 @media only screen and (max-width: 335px) {
 
