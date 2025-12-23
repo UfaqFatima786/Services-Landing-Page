@@ -108,6 +108,7 @@ body {
     animation-duration: 0.8s;
     cursor: pointer;
 }
+
 .hire-section:hover {
     animation-name: animate__fadeInUp;
     animation-duration: 0.8s;
@@ -162,6 +163,7 @@ body {
 .card-img-top {
     cursor: pointer;
 }
+
 .card-img-top {
     animation: none;
 }
@@ -258,6 +260,7 @@ body {
     color: #f7f6f6;
     font-size: 29px;
 }
+
 .label-msg {
     color: #f7f6f6;
     font-size: 29px;
@@ -320,33 +323,30 @@ body {
     .left-row {
         text-align: center;
     }
-  .navbar-collapse {
-    background: linear-gradient(
-      90deg,
-      rgba(217, 87, 180, 1) 0%,
-      rgba(9, 9, 121, 1) 51%,
-      rgba(0, 212, 255, 1) 100%
-    );
-    padding: 20px;
-    border-radius: 20px;
-  }
-  .navUi{
-    padding-bottom:100px;
-  }
-  .btn{
- margin-left:225px;
-  }
 
+    .navbar-collapse {
+        background: linear-gradient(90deg,
+                rgba(217, 87, 180, 1) 0%,
+                rgba(9, 9, 121, 1) 51%,
+                rgba(0, 212, 255, 1) 100%);
+        padding: 20px;
+        border-radius: 20px;
+    }
 
+    .navUi {
+        padding-bottom: 100px;
+    }
 
+    .btn {
+        margin-left: 225px;
+    }
 }
+
 @media only screen and (max-width: 991px) {
 
     .navUl a {
         margin-top: -15px;
-
         text-align: center;
-
     }
 
     .form {
@@ -381,9 +381,11 @@ body {
         height: 700px;
     }
 }
+
 @media only screen and (max-width: 391px) {
-    .footer-para{
-font-size: 20px;    }
+    .footer-para {
+        font-size: 20px;
+    }
 }
 
 
